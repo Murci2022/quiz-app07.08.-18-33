@@ -1,0 +1,20 @@
+.footer {
+  width: 100vw;
+  position: absolute;
+  bottom: 0;
+}
+
+.icon_holder {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  bottom: 0;
+
+  background-color: bisque;
+}
+
+.li_style {
+  list-style: none;
+}

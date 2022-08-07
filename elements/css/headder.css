@@ -1,7 +1,7 @@
 .header {
   border: 1px solid black;
-  position: fixed;
-  top: 0;
+  /*  position: fixed;
+  top: 0; */
   width: 100vw;
   background: var(--dark);
   height: var(--header-height);
