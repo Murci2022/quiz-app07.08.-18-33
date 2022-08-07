@@ -9,6 +9,7 @@
 :root {
   --font-size: 1rem;
   --header-height: 75px;
+  --footer-height: 75px;
   --dark: rgb(255, 255, 255);
   --medium: rgb(2 125 69);
   --light: rgba(72, 234, 43, 0.836);
