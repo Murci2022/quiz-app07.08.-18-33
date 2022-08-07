@@ -1,8 +1,8 @@
 .footer {
   width: 100vw;
   height: var(--footer-height);
-
-  position: absolute;
+  background: var(--dark);
+  position: fixed;
   bottom: 0;
 }
 
@@ -13,10 +13,9 @@
   align-items: center;
 
   bottom: 0;
-
-  background-color: bisque;
 }
 
 .li_style {
+  padding: 10px;
   list-style: none;
 }
