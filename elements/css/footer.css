@@ -1,0 +1,21 @@
+.footer {
+  width: 100vw;
+  height: var(--footer-height);
+  background: var(--dark);
+  position: fixed;
+  bottom: 0;
+}
+
+.icon_holder {
+  border: 1px solid black;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  bottom: 0;
+}
+
+.li_style {
+  padding: 10px;
+  list-style: none;
+}
