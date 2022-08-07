@@ -1,0 +1,26 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --font-size: 1rem;
+  --header-height: 75px;
+  --dark: rgb(255, 255, 255);
+  --medium: rgb(2 125 69);
+  --light: rgba(72, 234, 43, 0.836);
+  --contrast-text: rgb(255, 252, 252);
+
+  /* border */
+  --border-solid: 1px solid black;
+  --border-solid: 3px solid black;
+  --border-dotted: 1px dotted black;
+  --border-double: 1px double black;
+}
+
+html {
+  font-family: "Roboto Flex", sans-serif;
+
+  font-size: var(--font-size);
+}
