@@ -1,13 +1,16 @@
 main {
   border: 1px solid black;
   display: flex;
-  margin-top: 80px;
+  flex-direction: column;
+  align-items: center;
+
+  margin: 80px auto 80px auto;
 
   justify-content: space-around;
 }
 
 section {
-  margin-top: 10px;
+  margin: 30px auto;
   border: var(--border-solid);
 }
 
@@ -22,21 +25,11 @@ section {
   text-align: center;
   width: 80vw;
 }
-
-@media (max-width: 450px) {
-  main {
-    flex-wrap: wrap;
-  }
-
-  .portre {
-    width: 200px;
-  }
-  .container {
-    font-size: 0.8rem;
-  }
+.button__holder {
+  border: 1px dotted black;
+  padding: 10px 10px;
 }
-@media (min-width: 450px) {
-  .portre {
-    width: 100%;
-  }
+
+.titel {
+  margin-bottom: 10px;
 }
