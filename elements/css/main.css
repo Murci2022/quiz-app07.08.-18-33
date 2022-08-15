@@ -15,6 +15,7 @@ section {
 }
 
 .container {
+  position: relative;
   max-width: 600px;
   display: flex;
   flex-direction: column;
@@ -27,9 +28,17 @@ section {
 }
 .button__holder {
   border: 1px dotted black;
+  margin-top: 20px;
   padding: 10px 10px;
 }
 
 .titel {
   margin-bottom: 10px;
+}
+
+.heart-icon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 50px;
 }
