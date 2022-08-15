@@ -42,3 +42,7 @@ section {
   right: 0;
   height: 50px;
 }
+
+.hidden {
+  display: none;
+}

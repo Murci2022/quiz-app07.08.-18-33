@@ -4,10 +4,16 @@
   margin: 5px 0;
 }
 
-.show__button {
+.card__button {
   position: absolute;
   padding: 20px;
   border-radius: 50%;
   bottom: 10px;
   right: 20px;
+  cursor: pointer;
+}
+
+.card__button:active {
+  background-color: gray;
+  cursor: pointer;
 }
