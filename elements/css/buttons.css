@@ -1,5 +1,19 @@
 .contact_button {
   padding: 5px 5px;
   width: 100%;
-  margin: 10px 0;
+  margin: 5px 0;
+}
+
+.card__button {
+  position: absolute;
+  padding: 20px;
+  border-radius: 50%;
+  bottom: 10px;
+  right: 20px;
+  cursor: pointer;
+}
+
+.card__button:active {
+  background-color: gray;
+  cursor: pointer;
 }
