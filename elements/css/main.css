@@ -44,9 +44,14 @@ section {
   cursor: pointer;
 }
 
-.heart-icon:active {
+.icon:active {
   background-color: blanchedalmond;
 }
+
+.bookmarked {
+  background-color: rgb(236, 164, 55);
+}
+
 .hidden {
   display: none;
 }

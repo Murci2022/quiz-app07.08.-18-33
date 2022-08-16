@@ -11,3 +11,8 @@ button.addEventListener("click", () => {
     button.textContent = "Hide answer";
   }
 });
+
+const bookmarkIcon = document.querySelector('[data-js="bookmarkIcon"]');
+bookmarkIcon.addEventListener("click", () => {
+  bookmarkIcon.classList.toggle("bookmarked");
+});
