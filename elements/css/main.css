@@ -41,8 +41,31 @@ section {
   top: 0;
   right: 0;
   height: 50px;
+  cursor: pointer;
+}
+
+.icon:active {
+  background-color: blanchedalmond;
+}
+
+.bookmarked {
+  background-color: rgb(236, 164, 55);
 }
 
 .hidden {
   display: none;
+}
+
+.card__answer {
+  padding: 20px;
+  position: absolute;
+  /*  display: flex;
+  align-items: center;
+  justify-content: center; */
+  bottom: 30px;
+  font-size: 26px;
+  color: white;
+  background: black;
+  height: 150px;
+  width: 250px;
 }
