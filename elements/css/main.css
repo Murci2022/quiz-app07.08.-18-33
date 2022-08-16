@@ -41,8 +41,12 @@ section {
   top: 0;
   right: 0;
   height: 50px;
+  cursor: pointer;
 }
 
+.heart-icon:active {
+  background-color: blanchedalmond;
+}
 .hidden {
   display: none;
 }
